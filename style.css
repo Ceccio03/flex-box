@@ -1,0 +1,30 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+}
+
+*{
+    box-sizing: border-box;     /* applica a tutti i tag */
+}
+
+.main-box{
+    border: 3px solid red;
+    height: 100%;
+    display: flex;
+}
+
+.column-box{
+    border: 3px solid blue;
+}
+
+.small{
+    flex-grow: 1;
+}
+
+.big{
+    flex-grow: 2;
+}
+
+.box{
+
+}
